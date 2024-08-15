@@ -1,0 +1,220 @@
+2024-08-15 18:18:39.789 +05:30 [DBG] Hosting starting
+2024-08-15 18:18:42.735 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-15 18:18:42.830 +05:30 [INF] Now listening on: https://localhost:7052
+2024-08-15 18:18:42.832 +05:30 [INF] Now listening on: http://localhost:5153
+2024-08-15 18:18:42.833 +05:30 [DBG] Loaded hosting startup assembly TaskManagement
+2024-08-15 18:18:42.834 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-15 18:18:42.835 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-15 18:18:42.836 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-15 18:18:42.837 +05:30 [INF] Hosting environment: Development
+2024-08-15 18:18:42.838 +05:30 [INF] Content root path: C:\Users\Dhana\source\repos\TaskManager\TaskManagement
+2024-08-15 18:18:42.839 +05:30 [DBG] Hosting started
+2024-08-15 18:18:43.142 +05:30 [DBG] Connection id "0HN5T52C4TTAS" accepted.
+2024-08-15 18:18:43.143 +05:30 [DBG] Connection id "0HN5T52C4TTAS" started.
+2024-08-15 18:18:43.152 +05:30 [DBG] Connection id "0HN5T52C4TTAT" accepted.
+2024-08-15 18:18:43.153 +05:30 [DBG] Connection id "0HN5T52C4TTAT" started.
+2024-08-15 18:18:43.183 +05:30 [DBG] Connection id "0HN5T52C4TTAT" received FIN.
+2024-08-15 18:18:43.183 +05:30 [DBG] Connection id "0HN5T52C4TTAS" received FIN.
+2024-08-15 18:18:43.203 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-15 18:18:43.203 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-15 18:18:43.259 +05:30 [DBG] Connection id "0HN5T52C4TTAT" stopped.
+2024-08-15 18:18:43.259 +05:30 [DBG] Connection id "0HN5T52C4TTAS" stopped.
+2024-08-15 18:18:43.263 +05:30 [DBG] Connection id "0HN5T52C4TTAS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 18:18:43.263 +05:30 [DBG] Connection id "0HN5T52C4TTAT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 18:18:44.285 +05:30 [DBG] Connection id "0HN5T52C4TTAU" accepted.
+2024-08-15 18:18:44.287 +05:30 [DBG] Connection id "0HN5T52C4TTAU" started.
+2024-08-15 18:18:44.565 +05:30 [DBG] Connection id "0HN5T52C4TTAU" received FIN.
+2024-08-15 18:18:44.569 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-15 18:18:44.575 +05:30 [DBG] Connection id "0HN5T52C4TTAU" stopped.
+2024-08-15 18:18:44.577 +05:30 [DBG] Connection id "0HN5T52C4TTAU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 18:18:44.584 +05:30 [DBG] Connection id "0HN5T52C4TTAV" accepted.
+2024-08-15 18:18:44.586 +05:30 [DBG] Connection id "0HN5T52C4TTAV" started.
+2024-08-15 18:18:44.619 +05:30 [DBG] Connection 0HN5T52C4TTAV established using the following protocol: "Tls13"
+2024-08-15 18:18:44.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger - null null
+2024-08-15 18:18:45.078 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-15 18:18:45.150 +05:30 [DBG] No candidates found for the request path '/swagger'
+2024-08-15 18:18:45.152 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:18:45.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger - 301 0 null 270.8406ms
+2024-08-15 18:18:45.209 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/index.html - null null
+2024-08-15 18:18:45.217 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-15 18:18:45.218 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:18:45.274 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-15 18:18:45.276 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-15 18:18:45.295 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-15 18:18:45.298 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-15 18:18:45.299 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/index.html - 200 null text/html;charset=utf-8 90.1418ms
+2024-08-15 18:18:45.384 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/swagger-ui.css - null null
+2024-08-15 18:18:45.386 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-08-15 18:18:45.387 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:18:45.408 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-15 18:18:45.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/swagger-ui-bundle.js - null null
+2024-08-15 18:18:45.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-15 18:18:45.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-15 18:18:45.411 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/swagger-ui.css - 200 143943 text/css 27.711ms
+2024-08-15 18:18:45.427 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-08-15 18:18:45.424 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-08-15 18:18:45.434 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:18:45.463 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:18:45.432 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/_vs/browserLink - null null
+2024-08-15 18:18:45.464 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 54.6232ms
+2024-08-15 18:18:45.497 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-15 18:18:45.499 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 89.2971ms
+2024-08-15 18:18:45.551 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-15 18:18:45.554 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 144.014ms
+2024-08-15 18:18:45.570 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.7414ms
+2024-08-15 18:18:45.962 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/v1/swagger.json - null null
+2024-08-15 18:18:45.965 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-15 18:18:45.967 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:18:46.214 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 251.716ms
+2024-08-15 18:18:48.447 +05:30 [DBG] Connection id "0HN5T52C4TTAV" received FIN.
+2024-08-15 18:18:48.481 +05:30 [DBG] The connection queue processing loop for 0HN5T52C4TTAV completed.
+2024-08-15 18:18:48.483 +05:30 [DBG] Connection id "0HN5T52C4TTAV" is closed. The last processed stream ID was 15.
+2024-08-15 18:18:48.484 +05:30 [DBG] Connection id "0HN5T52C4TTAV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 18:18:48.501 +05:30 [DBG] Connection id "0HN5T52C4TTAV" stopped.
+2024-08-15 18:34:14.416 +05:30 [DBG] Connection id "0HN5T52C4TTB0" accepted.
+2024-08-15 18:34:14.428 +05:30 [DBG] Connection id "0HN5T52C4TTB0" started.
+2024-08-15 18:34:14.453 +05:30 [DBG] Connection id "0HN5T52C4TTB0" received FIN.
+2024-08-15 18:34:14.457 +05:30 [DBG] Connection id "0HN5T52C4TTB1" accepted.
+2024-08-15 18:34:14.458 +05:30 [DBG] Connection id "0HN5T52C4TTB1" started.
+2024-08-15 18:34:14.469 +05:30 [DBG] Connection 0HN5T52C4TTB1 established using the following protocol: "Tls13"
+2024-08-15 18:34:14.469 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-15 18:34:14.480 +05:30 [DBG] Connection id "0HN5T52C4TTB0" stopped.
+2024-08-15 18:34:14.481 +05:30 [DBG] Connection id "0HN5T52C4TTB0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 18:34:14.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/index.html - null null
+2024-08-15 18:34:14.527 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-15 18:34:14.528 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:34:14.556 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-15 18:34:14.557 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-15 18:34:14.562 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-15 18:34:14.564 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-15 18:34:14.564 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/index.html - 200 null text/html;charset=utf-8 82.1761ms
+2024-08-15 18:34:14.689 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/_vs/browserLink - null null
+2024-08-15 18:34:14.706 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-15 18:34:14.712 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.4571ms
+2024-08-15 18:34:14.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.2694ms
+2024-08-15 18:34:14.811 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/v1/swagger.json - null null
+2024-08-15 18:34:14.813 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-15 18:34:14.814 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:34:14.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/favicon-32x32.png - null null
+2024-08-15 18:34:14.840 +05:30 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-08-15 18:34:14.841 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:34:14.850 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-08-15 18:34:14.852 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/favicon-32x32.png - 200 628 image/png 16.206ms
+2024-08-15 18:34:14.868 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.6616ms
+2024-08-15 18:34:14.893 +05:30 [DBG] Connection id "0HN5T52C4TTB1" received FIN.
+2024-08-15 18:34:14.896 +05:30 [DBG] Connection id "0HN5T52C4TTB1" is closed. The last processed stream ID was 9.
+2024-08-15 18:34:14.896 +05:30 [DBG] The connection queue processing loop for 0HN5T52C4TTB1 completed.
+2024-08-15 18:34:14.897 +05:30 [DBG] Connection id "0HN5T52C4TTB1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 18:34:14.914 +05:30 [DBG] Connection id "0HN5T52C4TTB1" stopped.
+2024-08-15 18:49:13.240 +05:30 [DBG] Hosting starting
+2024-08-15 18:49:13.848 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-15 18:49:13.951 +05:30 [INF] Now listening on: https://localhost:7052
+2024-08-15 18:49:13.954 +05:30 [INF] Now listening on: http://localhost:5153
+2024-08-15 18:49:13.955 +05:30 [DBG] Loaded hosting startup assembly TaskManagement
+2024-08-15 18:49:13.956 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-15 18:49:13.956 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-15 18:49:13.957 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-15 18:49:13.958 +05:30 [INF] Hosting environment: Development
+2024-08-15 18:49:13.959 +05:30 [INF] Content root path: C:\Users\Dhana\source\repos\TaskManagerRepo\TaskManagement
+2024-08-15 18:49:13.960 +05:30 [DBG] Hosting started
+2024-08-15 18:49:14.120 +05:30 [DBG] Connection id "0HN5T5JDQG1AO" accepted.
+2024-08-15 18:49:14.122 +05:30 [DBG] Connection id "0HN5T5JDQG1AO" started.
+2024-08-15 18:49:14.129 +05:30 [DBG] Connection id "0HN5T5JDQG1AP" accepted.
+2024-08-15 18:49:14.131 +05:30 [DBG] Connection id "0HN5T5JDQG1AP" started.
+2024-08-15 18:49:14.188 +05:30 [DBG] Connection id "0HN5T5JDQG1AO" received FIN.
+2024-08-15 18:49:14.189 +05:30 [DBG] Connection id "0HN5T5JDQG1AP" received FIN.
+2024-08-15 18:49:14.219 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-15 18:49:14.220 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-15 18:49:14.307 +05:30 [DBG] Connection id "0HN5T5JDQG1AP" stopped.
+2024-08-15 18:49:14.307 +05:30 [DBG] Connection id "0HN5T5JDQG1AO" stopped.
+2024-08-15 18:49:14.315 +05:30 [DBG] Connection id "0HN5T5JDQG1AO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 18:49:14.315 +05:30 [DBG] Connection id "0HN5T5JDQG1AP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 18:49:17.223 +05:30 [DBG] Connection id "0HN5T5JDQG1AQ" accepted.
+2024-08-15 18:49:17.230 +05:30 [DBG] Connection id "0HN5T5JDQG1AQ" started.
+2024-08-15 18:49:18.374 +05:30 [DBG] Connection id "0HN5T5JDQG1AQ" received FIN.
+2024-08-15 18:49:18.380 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-08-15 18:49:18.390 +05:30 [DBG] Connection id "0HN5T5JDQG1AQ" stopped.
+2024-08-15 18:49:18.393 +05:30 [DBG] Connection id "0HN5T5JDQG1AQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 18:49:18.441 +05:30 [DBG] Connection id "0HN5T5JDQG1AR" accepted.
+2024-08-15 18:49:18.443 +05:30 [DBG] Connection id "0HN5T5JDQG1AR" started.
+2024-08-15 18:49:18.472 +05:30 [DBG] Connection 0HN5T5JDQG1AR established using the following protocol: "Tls13"
+2024-08-15 18:49:18.692 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger - null null
+2024-08-15 18:49:20.924 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-15 18:49:21.852 +05:30 [DBG] No candidates found for the request path '/swagger'
+2024-08-15 18:49:21.853 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:49:21.899 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger - 301 0 null 3214.253ms
+2024-08-15 18:49:21.907 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/index.html - null null
+2024-08-15 18:49:21.917 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-08-15 18:49:21.918 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:49:22.004 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-15 18:49:22.007 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-15 18:49:22.029 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-15 18:49:22.030 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-15 18:49:22.031 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/index.html - 200 null text/html;charset=utf-8 125.8318ms
+2024-08-15 18:49:22.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/swagger-ui.css - null null
+2024-08-15 18:49:22.139 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-08-15 18:49:22.140 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:49:22.158 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-15 18:49:22.159 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/swagger-ui.css - 200 143943 text/css 24.4778ms
+2024-08-15 18:49:22.163 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-15 18:49:22.163 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/swagger-ui-bundle.js - null null
+2024-08-15 18:49:22.163 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-15 18:49:22.165 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-08-15 18:49:22.167 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-08-15 18:49:22.176 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:49:22.177 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/_vs/browserLink - null null
+2024-08-15 18:49:22.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 17.0591ms
+2024-08-15 18:49:22.177 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:49:22.303 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-15 18:49:22.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 142.9057ms
+2024-08-15 18:49:22.335 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-15 18:49:22.337 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 174.4525ms
+2024-08-15 18:49:22.897 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/_vs/browserLink - 200 null text/javascript; charset=UTF-8 719.9348ms
+2024-08-15 18:49:23.316 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7052/swagger/v1/swagger.json - null null
+2024-08-15 18:49:23.321 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-15 18:49:23.322 +05:30 [DBG] Request did not match any endpoints
+2024-08-15 18:49:23.748 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7052/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 467.3712ms
+2024-08-15 18:49:27.881 +05:30 [DBG] Connection id "0HN5T5JDQG1AR" received FIN.
+2024-08-15 18:49:27.920 +05:30 [DBG] The connection queue processing loop for 0HN5T5JDQG1AR completed.
+2024-08-15 18:49:27.923 +05:30 [DBG] Connection id "0HN5T5JDQG1AR" is closed. The last processed stream ID was 15.
+2024-08-15 18:49:27.924 +05:30 [DBG] Connection id "0HN5T5JDQG1AR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-15 18:49:27.926 +05:30 [DBG] Connection id "0HN5T5JDQG1AR" stopped.
+2024-08-15 18:51:52.312 +05:30 [DBG] Config reload token fired. Checking for changes...
